@@ -1,7 +1,7 @@
 {
     "name": "technologi/assesment",
     "type": "project",
-    "description": "Technolgi Assesment",
+    "description": "Technologi Assesment",
     "keywords": ["assesment"],
     "license": "MIT",
     "require": {
@@ -11,9 +11,6 @@
       "phpunit/phpunit": "^9.5.10"
     },
     "autoload": {
-      "files": [
-        "app/helpers.php"
-      ],
       "psr-4": {
         "App\\": "app/"
       }
