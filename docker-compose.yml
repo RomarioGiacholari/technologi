@@ -45,7 +45,7 @@ services:
       - "3306:3306"
     environment:
       MYSQL_DATABASE: technologi
-      MYSQL_ROOT_PASSWORD:
+      MYSQL_ROOT_PASSWORD: root
       SERVICE_TAGS: dev
       SERVICE_NAME: mysql
     volumes:
